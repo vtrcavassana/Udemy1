@@ -33,7 +33,7 @@ VALUES
 -- Mostrando a quantidade de livros que cada autor tem, pelo group by e aggregation
 SELECT
   autores_id,
-  COUNT(id)
+  COUNT(*)
 FROM
   livros
 GROUP BY
